@@ -1,0 +1,141 @@
+.top{
+  background-color: #e0ebe8;
+  /* margin-bottom: 200px; */
+}
+.clouds1{
+  margin-left: -310px;
+    height: 44px;
+    width: 103px;
+   position:relative;
+   top: 120px;
+
+}
+.clouds2{
+  margin-left: 418px;
+  height: 59px;
+    width: 119px;
+    display:inline-block;
+    position:absolute;
+    top: 330px;
+left: 400px;
+}
+
+.mount{
+width:771px;
+    margin-top: 37px;
+}
+.data{
+  position: relative;
+    top: 101px;
+}
+.skill-row {
+  height:50%;
+  width: 50%;
+  display:inline-block;
+  margin-top: 1.5rem;
+  /* margin-bottom: 2rem; */
+  text-align: left;
+  line-height: 2
+
+}
+.skill-row img{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+.profile{
+  height: 50%;
+    width: 50%;
+    display: inline-block;
+
+}
+
+.profile img{
+  height: 263px;
+    width: 263px;
+      margin-top: 100px;
+
+}
+hr{
+  width: 8%;
+height: 0;
+border-width: 11px;
+border-color: #f1ebeb;
+border-style: dotted;
+border-bottom: 0;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  font-size: 6rem;
+  /* 16px=100%=1 em */
+  /* px is static     . % and em is dynammic but the problem is they inherit from their parent   .  so Best is rem which is dynamic and does not inherit */
+  margin-top: 50px;
+  margin-bottom: -27px;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color:#66BFBF;
+  font-weight: normal;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E;
+  font-size: 1.25rem;
+  margin-top: 0;
+  text-decoration: none;
+}
+h4{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+a{
+  color:#11999E;
+}
+
+.footer-link{
+
+  color:white;
+  font-weight: bold;
+
+}
+.bottom-container{
+  background-color: #e0ebe8;
+  height:132px;
+
+}
+.contact-me{
+  margin-bottom:50px;
+}
+.btn {
+    background: #11CDD3;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #11CDD3), color-stop(1, #11999E) );
+    background: -moz-linear-gradient( center top, #11CDD3 5%, #11999E 100% );
+    background: -ms-linear-gradient( center top, #11CDD3 5%, #11999E 100% );
+    background: -o-linear-gradient( center top, #11CDD3 5%, #11999E 100% );
+    background: -webkit-linear-gradient( center top, #11CDD3 5%, #11999E 100% );
+    -webkit-border-radius: 8;
+      -moz-border-radius: 8;
+      border-radius: 8px;
+      font-family: 'Montserrat', sans-serif;
+      color: #FFFFFF;
+      font-size: 20px;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+}
+
+.btn:hover {
+    background: #30E3CB;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #30E3CB), color-stop(1, #2BC4AD) );
+    background: -moz-linear-gradient( center top, #30E3CB 5%, #2BC4AD 100% );
+    background: -ms-linear-gradient( center top, #30E3CB 5%, #2BC4AD 100% );
+    background: -o-linear-gradient( center top, #30E3CB 5%, #2BC4AD 100% );
+    background: -webkit-linear-gradient( center top, #30E3CB 5%, #2BC4AD 100% );
+}
