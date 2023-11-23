@@ -6,10 +6,10 @@ on:
   push:
     branches:
       - main
-  pull_requests:
+  pull_request:
     branches:
       - main
-  workflow-dispatch:
+  workflow_dispatch:
 
 jobs:
   static-wbsite-deploy-on-apache-ec2:
