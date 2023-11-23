@@ -6,17 +6,17 @@ on:
   push:
     branches:
       - main
-  pull_requests:
+  pull_request:
     branches:
       - main
-  workflow-dispatch:
+  workflow_dispatch:
 
 jobs:
   static-wbsite-deploy-on-apache-ec2:
     runs-on: ubuntu-latest
     steps:
       - name: cloning repo
-        uses: actions/chechkout@v4
+        uses: actions/checkout@v4
       - name: rsync deployments
         uses: burnett01/rsync-deployments@6.0.0
         with:
