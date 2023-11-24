@@ -26,4 +26,4 @@ jobs:
           remote_host: 54.162.250.78
           remote_user: ubuntu
           remote_key: ${{ secrets.DEPLOY_KEY }}
-…
+...
