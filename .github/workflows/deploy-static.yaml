@@ -23,7 +23,7 @@ jobs:
           switches: -avzr --delete
           path: ./*
           remote_path: /var/www/html/
-          remote_host: 107.23.240.68
-          remote_user: ubuntu
+          remote_host: 192.168.1.11
+          remote_user: warda
           remote_key: ${{ secrets.DEPLOY_KEY }}
 ...
